@@ -1,0 +1,12 @@
+[package]
+name = "dict-json-converter"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["nats9284 <@nats9284>"]
+license = "MIT"
+description = "convert Typst dictionary to JSON string"
+repository = "https://github.com/nats9284/typst-dict-json-converter.git"
+keywords = ["type-conversion", "JSON", "dictionary"]
+categories = ["type-conversion", "utility"]
+compiler = "0.11.0"
+exclude = [".gitignore", "Makefile", "modulecode_exports.js", "test.pdf"]
